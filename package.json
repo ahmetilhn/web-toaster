@@ -1,0 +1,19 @@
+{
+  "name": "web-toaster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ahmetilhn/web-toaster.git",
+  "author": "ahmetilhn <ahmetilhan.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
