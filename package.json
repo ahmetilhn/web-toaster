@@ -18,7 +18,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch --progress"
+    "start": "webpack --watch --progress",
+    "playground": "cd demo/vue && yarn serve"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
