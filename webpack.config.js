@@ -4,7 +4,6 @@ module.exports = {
   mode: "production",
   target: "web",
   entry: "./lib/index.js",
-  watch: true,
   module: {
     rules: [
       {
