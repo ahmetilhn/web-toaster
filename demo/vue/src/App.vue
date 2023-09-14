@@ -17,13 +17,13 @@ export default {
   },
   methods: {
     showSuccess() {
-      toaster.success("Sucess toast message!" + new Date().getSeconds());
+      toaster.success("Successfully toasted!");
     },
     showError() {
-      toaster.error("Sucess toast message!" + new Date().getSeconds());
+      toaster.error("This didn't work.");
     },
     showWarning() {
-      toaster.warning("Sucess toast message!" + new Date().getSeconds());
+      toaster.warning("Warning! Lorem ipsum dolar sit.");
     },
   },
 };

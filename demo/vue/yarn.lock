@@ -5958,6 +5958,11 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+web-toaster@^1.0.0-alpha-1:
+  version "1.0.0-alpha-1"
+  resolved "https://registry.yarnpkg.com/web-toaster/-/web-toaster-1.0.0-alpha-1.tgz#d04c61145bb078b2ab9f0e580d54635c0514424e"
+  integrity sha512-SLnOfK8wwmmgjquwzVNKNLtzU0g3Tf9SDbq6xVrgY8INstkjM9pOzu42xNmzaKKrCWC3XR8YUwo8MTdeCqd0yw==
+
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
