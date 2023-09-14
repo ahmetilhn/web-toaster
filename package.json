@@ -6,7 +6,8 @@
   "author": "ahmetilhn <ahmetilhan.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack --watch --progress"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",

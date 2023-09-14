@@ -1,7 +1,9 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
-  <button @click="showNotifi">Tıkla</button>
+  <button @click="showSuccess">Tıkla</button>
+  <button @click="showError">Tıkla</button>
+  <button @click="showWarning">Tıkla</button>
 </template>
 
 <script>
@@ -14,8 +16,14 @@ export default {
     HelloWorld,
   },
   methods: {
-    showNotifi() {
-      console.log(toaster.success("test"));
+    showSuccess() {
+      toaster.success("Sucess toast message!" + new Date().getSeconds());
+    },
+    showError() {
+      toaster.error("Sucess toast message!" + new Date().getSeconds());
+    },
+    showWarning() {
+      toaster.warning("Sucess toast message!" + new Date().getSeconds());
     },
   },
 };
