@@ -9,7 +9,7 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import webToaster from "../../../build/index";
-const toaster = new webToaster({ timeout: 1000 });
+const toaster = new webToaster({ position: "bottom-center" });
 export default {
   name: "App",
   components: {
